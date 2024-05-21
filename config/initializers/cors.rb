@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
     allow do
-      origins 'https://react-api-chatgpt.vercel.app'
+      origins 'https://chatgpt-aura-bot.soru-tech.com'
   
       resource '*',
         headers: :any,
